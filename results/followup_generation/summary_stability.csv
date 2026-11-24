@@ -1,0 +1,5 @@
+model,repeat_consistency,wording_consistency,accuracy_min,accuracy_max,accuracy_spread,invalid_rate,mean_seconds
+qwen3.8:27b,1.0,0.827,0.72,0.76,0.04,0.001,0.68
+qwen3:14b,0.998,0.84,0.682,0.733,0.051,0.003,0.19
+qwen3:32b,0.999,0.727,0.69,0.782,0.092,0.0,0.28
+qwen3:8b,0.998,0.793,0.663,0.733,0.07,0.0,0.1

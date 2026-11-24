@@ -1,0 +1,3 @@
+model,repeat_consistency,wording_consistency,accuracy_min,accuracy_max,accuracy_spread,invalid_rate,mean_seconds
+llama3.1:8b,0.994,0.633,0.592,0.757,0.164,0.013,2.56
+qwen2.5:7b,0.999,0.787,0.699,0.753,0.054,0.0,2.5

@@ -1,0 +1,4 @@
+model,v1_plain,v2_formal,v3_casual,v4_reordered
+qwen2.5:14b,0.766,0.76,0.709,0.716
+qwen2.5:32b,0.723,0.743,0.722,0.757
+qwen2.5:7b,0.74,0.733,0.697,0.749

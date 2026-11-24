@@ -1,0 +1,18 @@
+{
+  "started": "2026-11-20T22:20:08",
+  "temperature": 0.0,
+  "num_ctx": 2048,
+  "num_predict": 20,
+  "repeats": 3,
+  "n_items": 300,
+  "templates": {
+    "v1_plain": "What is the sentiment of the following Stack Overflow post? Answer with one word: positive, negative, or neutral.\n\n{text}",
+    "v2_formal": "You are given a text written by a software developer on Stack Overflow. Please classify the sentiment polarity expressed in the text as \"positive\", \"negative\", or \"neutral\". Respond with exactly one of these three words.\n\nText: {text}",
+    "v3_casual": "hey, quick one - is this dev post positive, negative or neutral? just say the one word\n\n{text}",
+    "v4_reordered": "{text}\n\nThe text above is a Stack Overflow post. Is its sentiment positive, negative, or neutral? Reply with a single word."
+  },
+  "models": {
+    "qwen2.5:14b": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6"
+  },
+  "finished": "2026-11-20T22:31:04"
+}
